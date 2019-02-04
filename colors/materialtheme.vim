@@ -88,3 +88,9 @@ hi SyntasticError guifg=#e57373
 hi SyntasticWarning guifg=#ffd54f gui=NONE
 hi SyntasticErrorSign guifg=#e57373 gui=bold
 hi SyntasticWarningSign guifg=#ffd54f gui=bold
+
+" Diff colors from minimalist
+hi DiffAdd          ctermfg=255     ctermbg=64      cterm=bold      guifg=#EEEEEE       guibg=#5F8700   gui=bold
+hi DiffChange       ctermfg=NONE    ctermbg=NONE    cterm=NONE      guifg=NONE          guibg=NONE      gui=NONE
+hi DiffDelete       ctermfg=167     ctermbg=NONE    cterm=NONE      guifg=#D75F5F       guibg=NONE      gui=NONE
+hi DiffText         ctermfg=255     ctermbg=24      cterm=bold      guifg=#EEEEEE       guibg=#005F87   gui=bold
